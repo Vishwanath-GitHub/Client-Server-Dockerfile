@@ -1,0 +1,5 @@
+FROM nginx
+ADD file1 /serverdata/file1
+VOLUME /serverdata
+CMD /bin/sh
+EXPOSE 3000
