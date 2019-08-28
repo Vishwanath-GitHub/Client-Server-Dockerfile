@@ -1,0 +1,5 @@
+FROM ubuntu
+ADD /serverdata/file1 /clientdata/file1
+VOLUME /clientdata
+CMD /bin/sh
+EXPOSE 9080
